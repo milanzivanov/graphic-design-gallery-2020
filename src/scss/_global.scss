@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;   
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrapper-inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    // margin: auto;
+}
+
+.slick-slider {
+    text-align: center;
+    .slick-slider-img {
+        display: inline-block;
+        vertical-align: middle;
+        float:none;
+    }
+}
